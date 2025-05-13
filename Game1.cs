@@ -9,6 +9,8 @@ namespace Summative_Animation
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
 
+        Texture2D russiaFlag;
+
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
@@ -42,7 +44,7 @@ namespace Summative_Animation
 
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.CornflowerBlue);
+            GraphicsDevice.Clear(Color.RoyalBlue);
 
             // TODO: Add your drawing code here
 
